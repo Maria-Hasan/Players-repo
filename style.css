@@ -42,7 +42,7 @@
  
  }
  .container {
-     background-color: silver;
+     background-color: white;
      margin-top:0;
      margin-left:320px;
      margin-bottom:30px;
@@ -63,5 +63,33 @@
      margin-bottom:30px;
     
  }
+ .article img{
+    width:80px;
+    height:80px;
+ }
+ .Top-blogs{
+     display: flex;
+     align-items: center;
+     
+ }
+ .thumnail{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-row-gap: 26px;
+ }
+ .blog-heading{
+     padding-left: 30px;
+ }
+ .blog-title{
+     padding-left:20px;
+ }
+ .blog-author a{
+     text-decoration: none;
+ }
+ .course-title img{
+     width:170px;
+     height:150px;
+ }
+
  
  
